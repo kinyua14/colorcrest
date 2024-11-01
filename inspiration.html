@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inspiration Gallery - ColorCrest</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="stylesheet" href="insp.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Inspiration Gallery</h1>
+  </header>
+
+  <section id="gallery">
+    <h2>Our Projects</h2>
+    <div class="grid-container">
+      <div class="grid-item"><img src="images/Eco-Friendly Paints.jpg" alt="Eco-Friendly Paints"></div>
+      <div class="grid-item"><img src="images/interior.jpg" alt="Interior"></div>
+      <div class="grid-item"><img src="images/exterior.jpg" alt="Exterior"></div>
+      <div class="grid-item"><img src="images/hero.jpg" alt="Hero"></div>
+      <div class="grid-item"><img src="images/specialty.jpg" alt="Specialty"></div>
+      
+    </div>
+    <div class="grid-2">
+      <div class="grid-item"><img src="images/project 1.jpg" alt="Project 1"></div>
+      <div class="grid-item"><img src="images/project 2.jpg" alt="Project 2"></div>
+      <div class="grid-item"><img src="images/project 3.jpg" alt="Project 3"></div>
+    </div>
+  </section>
+
+  <section id="upload-form">
+    <h2>Upload Your Project</h2>
+    <p>Share your ColorCrest projects with us! Use the form below to upload your images.</p>
+    <form>
+      <label for="project-title">Project Title:</label>
+      <input type="text" id="project-title" name="project-title" required>
+
+      <label for="project-image">Upload Image:</label>
+      <input type="file" id="project-image" name="project-image" accept="image/*" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 ColorCrest. All rights reserved.</p>
+  </footer>
+</body>
+</html>
